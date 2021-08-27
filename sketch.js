@@ -41,7 +41,7 @@ function setup() {
   zombie = createSprite(width/2,height-110);
   zombie.addAnimation("lefttoright",zombie1,zombie2,zombie1);
   zombie.addAnimation("righttoleft",zombie3,zombie4,zombie3);
-  zombie.addImage(sadImg);
+  zombie.addImage("sad",sadImg);
   zombie.scale = 0.1;
   zombie.velocityX = 2;
 
